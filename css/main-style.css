@@ -1,0 +1,133 @@
+/* Header's style*/
+
+.logo img{
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px; 
+    align-items: center;
+    background-color: rgba(35, 88, 88, 0.411);
+}
+
+.nav-items ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items ul li a:hover{
+color: white;
+border-bottom: 2px solid wheat;
+padding-bottom: 15px;
+}
+
+
+.header-container button{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid wheat;
+    border-radius: 20%;
+    margin-right: 10px;
+}
+
+.header-container button:hover{
+
+    background-color: rgba(255, 81, 81, 0.623);
+    cursor: pointer;
+}
+
+.header-paragraph{
+    font-size: 20px;
+    margin-top: -120px ;
+    margin-bottom: -25px;
+    text-align:right;
+    font-weight: lighter;
+    font-family: Lucida Handwriting;
+}
+
+/***************Main*******************/
+
+.hero-unit{
+    text-align: left;
+    margin-left: 20px;
+    background-image: url('../img/adminResults.png');
+    height: 300px;
+    max-width: 100%;
+    object-fit: scale-down;
+}
+
+.hero-unit h1{
+font-size: 3.5em;
+margin: 0;
+padding-top: 2em;
+margin-bottom: 10px;
+}
+
+
+.hero-unit button{
+    background-color: red;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid coral;
+}
+
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.product img{
+    width: 100%;
+    height: 250px;
+    object-fit:cover;
+}
+
+.muli-column-container{
+    background-image: url('../img/side.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.product{
+    background-color: white;
+    margin: 2em;
+    text-align: center;
+    box-shadow: 10px 10px 20px  grey;
+}
+
+.product p{
+    text-align: left;
+    text-align: justify;
+    margin: 0.5em;
+}
+
+/********************Footer***********************/
+
+.footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px; 
+    align-items: center;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.footer-unit{
+    text-align: right;
+}
